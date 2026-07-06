@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Saif Osama - Web Developer</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Tahoma;
+        background: #0f172a;
+        color: white;
+        scroll-behavior: smooth;
+    }
+
+    header {
+        text-align: center;
+        padding: 120px 20px;
+        background: linear-gradient(to right, #1e3a8a, #0ea5e9);
+    }
+
+    header h1 {
+        font-size: 50px;
+        margin: 10px;
+    }
+
+    header p {
+        font-size: 20px;
+        opacity: 0.8;
+    }
+
+    nav {
+        background: #020617;
+        text-align: center;
+        padding: 15px;
+        position: sticky;
+        top: 0;
+    }
+
+    nav a {
+        color: white;
+        margin: 15px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    nav a:hover {
+        color: #38bdf8;
+    }
+
+    .section {
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        background: #1e293b;
+        margin: 15px;
+        padding: 20px;
+        width: 250px;
+        border-radius: 15px;
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+        background: #334155;
+    }
+
+    button {
+        background: #0ea5e9;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #0284c7;
+    }
+
+    footer {
+        background: #020617;
+        text-align: center;
+        padding: 20px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>سيف أسامة سمير</h1>
+    <h2>🔥 البروفيسور 🔥</h2>
+    <p>مصمم ومطور مواقع احترافية</p>
+</header>
+
+<nav>
+    <a href="#about">من أنا</a>
+    <a href="#services">خدماتي</a>
+    <a href="#contact">تواصل</a>
+</nav>
+
+<section class="section" id="about">
+    <h2>👨‍💻 من أنا</h2>
+    <p>أنا مطور مواقع بقدم تصميمات احترافية وسريعة تناسب أي مشروع أو بيزنس.</p>
+</section>
+
+<section class="section" id="services">
+    <h2>💼 خدماتي</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>تصميم مواقع</h3>
+            <p>مواقع احترافية وجذابة</p>
+        </div>
+
+        <div class="card">
+            <h3>Landing Pages</h3>
+            <p>صفحات تسويق عالية التحويل</p>
+        </div>
+
+        <div class="card">
+            <h3>تعديل مواقع</h3>
+            <p>تحسين وتطوير أي موقع</p>
+        </div>
+
+        <div class="card">
+            <h3>سرعة وأداء</h3>
+            <p>مواقع سريعة جدًا</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>📞 تواصل معي</h2>
+    <p>رقم الهاتف: 01008758410</p>
+
+    <button onclick="alert('اتصل بيا على 01008758410')">
+        تواصل الآن
+    </button>
+</section>
+
+<footer>
+    <p>© 2026 - سيف أسامة سمير | البروفيسور</p>
+</footer>
+
+</body>
+</html>
